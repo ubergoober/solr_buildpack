@@ -11,7 +11,7 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 ENV_DIR=$3
 JVM_PATH=/usr/local
-
+cat /usr/local
 mkdir -p $USER_PATH/lib/jvm
 mv $ROOT_DIR/vendor/jre1.8.0_92 $USER_PATH/lib/jvm/oracle_jdk8
 #update-alternatives --install $USER_PATH/bin/java java $USER_PATH/lib/jvm/oracle_jdk8/bin/java 2000
