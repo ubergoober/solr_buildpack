@@ -4,5 +4,5 @@
 # fail fast
 #set -e
 
-echo `env`
+cat ../staging_info.yaml 
 echo "fileCompile --------------------------" 
