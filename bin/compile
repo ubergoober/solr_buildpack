@@ -4,5 +4,5 @@
 # fail fast
 #set -e
 
-echo WHATS UP
+echo "WHATS UP"
 
