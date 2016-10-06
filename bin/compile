@@ -12,11 +12,11 @@ CACHE_DIR=$2
 ENV_DIR=$3
 
 
-sudo mv $ROOT_DIR/vendorjre1.8.0_92 /usr/lib/jvm/oracle_jdk8
-sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/oracle_jdk8/jre/bin/java 2000
-sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/oracle_jdk8/bin/javac 2000
-sudo update-alternatives --config java
-sudo update-alternatives --config javac
+mv $ROOT_DIR/vendorjre1.8.0_92 /usr/lib/jvm/oracle_jdk8
+update-alternatives --install /usr/bin/java java /usr/lib/jvm/oracle_jdk8/jre/bin/java 2000
+update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/oracle_jdk8/bin/javac 2000
+update-alternatives --config java
+update-alternatives --config javac
 
 export J2SDKDIR=/usr/lib/jvm/oracle_jdk8
 export J2REDIR=/usr/lib/jvm/oracle_jdk8/jre
