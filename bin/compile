@@ -11,17 +11,17 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 ENV_DIR=$3
 
-mkdir -p /usr/lib/jvm
-mv $ROOT_DIR/vendor/jre1.8.0_92 /usr/lib/jvm/oracle_jdk8
-update-alternatives --install /usr/bin/java java /usr/lib/jvm/oracle_jdk8/jre/bin/java 2000
-update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/oracle_jdk8/bin/javac 2000
+mkdir -p ~/lib/jvm
+mv $ROOT_DIR/vendor/jre1.8.0_92 ~/lib/jvm/oracle_jdk8
+update-alternatives --install /usr/bin/java java ~/lib/jvm/oracle_jdk8/jre/bin/java 2000
+update-alternatives --install /usr/bin/javac javac ~/lib/jvm/oracle_jdk8/bin/javac 2000
 update-alternatives --config java
 update-alternatives --config javac
 
-export J2SDKDIR=/usr/lib/jvm/oracle_jdk8
-export J2REDIR=/usr/lib/jvm/oracle_jdk8/jre
-export PATH=$PATH:/usr/lib/jvm/oracle_jdk8/bin:/usr/lib/jvm/oracle_jdk8/db/bin:/usr/lib/jvm/oracle_jdk8/jre/bin
-export JAVA_HOME=/usr/lib/jvm/oracle_jdk8
-export DERBY_HOME=/usr/lib/jvm/oracle_jdk8/db
+export J2SDKDIR=~/lib/jvm/oracle_jdk8
+export J2REDIR=~/lib/jvm/oracle_jdk8/jre
+export PATH=$PATH:~/lib/jvm/oracle_jdk8/bin:/usr/lib/jvm/oracle_jdk8/db/bin:/usr/lib/jvm/oracle_jdk8/jre/bin
+export JAVA_HOME=~/lib/jvm/oracle_jdk8
+export DERBY_HOME=~/lib/jvm/oracle_jdk8/db
 
 echo "fileCompile --------------------------" 
