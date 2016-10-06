@@ -2,7 +2,7 @@
 # bin/detect <build-dir>
 
 echo `env`
-echo "--------------------------" 
+echo "fileDetect -----------------"
 
 
 if [ -f "$1/solr/conf/solr.xml" ]; then
