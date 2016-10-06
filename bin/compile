@@ -13,9 +13,9 @@ ENV_DIR=$3
 
 mkdir -p ~/lib/jvm
 mv $ROOT_DIR/vendor/jre1.8.0_92 ~/lib/jvm/oracle_jdk8
-update-alternatives --install /usr/bin/java java ~/lib/jvm/oracle_jdk8/bin/java 2000
+#update-alternatives --install /usr/bin/java java ~/lib/jvm/oracle_jdk8/bin/java 2000
 #update-alternatives --install /usr/bin/javac javac ~/lib/jvm/oracle_jdk8/bin/javac 2000
-update-alternatives --config java
+#update-alternatives --config java
 #update-alternatives --config javac
 
 export J2SDKDIR=~/lib/jvm/oracle_jdk8
