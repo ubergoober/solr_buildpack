@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-echo "LETS GET STARTED"
+echo `env`
+echo "--------------------------" 
 
 
-if [ -f "$1/solr/conf/config.xml" ]; then
+if [ -f "$1/solr/conf/solr.xml" ]; then
    echo "Solr" && exit 0
 else
   echo "no" && exit 1
