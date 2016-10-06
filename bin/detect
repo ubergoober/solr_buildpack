@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # bin/use <build-dir>
 
+echo LETS GET STARTED
+
 if [ -f "$1/solr/config.xml" ]; then
    echo "Solr" && exit 0
 else

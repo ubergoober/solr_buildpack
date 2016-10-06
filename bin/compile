@@ -5,3 +5,5 @@
 set -e
 
 echo WHATS UP
+
+exit 0
