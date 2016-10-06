@@ -3,7 +3,7 @@
 
 echo LETS GET STARTED
 
-if [ -f "$1/solr/config.xml" ]; then
+if [ -f "$1/solr/conf/config.xml" ]; then
    echo "Solr" && exit 0
 else
   echo "no" && exit 1
