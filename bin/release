@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-echo "Null"
-exit 0
+echo "release file completion"

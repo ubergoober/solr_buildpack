@@ -2,8 +2,7 @@
 # bin/compile <build-dir> <cache-dir>
 
 # fail fast
-set -e
+#set -e
 
 echo WHATS UP
 
-exit 0
