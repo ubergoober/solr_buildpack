@@ -11,5 +11,17 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 ENV_DIR=$3
 
-cat $ROOT_DIR/vendor/test.file 
+
+sudo mv $ROOT_DIR/vendorjre1.8.0_92 /usr/lib/jvm/oracle_jdk8
+sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/oracle_jdk8/jre/bin/java 2000
+sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/oracle_jdk8/bin/javac 2000
+sudo update-alternatives --config java
+sudo update-alternatives --config javac
+
+export J2SDKDIR=/usr/lib/jvm/oracle_jdk8
+export J2REDIR=/usr/lib/jvm/oracle_jdk8/jre
+export PATH=$PATH:/usr/lib/jvm/oracle_jdk8/bin:/usr/lib/jvm/oracle_jdk8/db/bin:/usr/lib/jvm/oracle_jdk8/jre/bin
+export JAVA_HOME=/usr/lib/jvm/oracle_jdk8
+export DERBY_HOME=/usr/lib/jvm/oracle_jdk8/db
+
 echo "fileCompile --------------------------" 
