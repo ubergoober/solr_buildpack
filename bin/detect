@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# bin/use <build-dir>
+# bin/detect <build-dir>
 
 echo "LETS GET STARTED"
 
