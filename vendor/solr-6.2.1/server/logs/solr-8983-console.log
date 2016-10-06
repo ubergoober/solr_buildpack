@@ -1,0 +1,33 @@
+0    INFO  (main) [   ] o.e.j.u.log Logging initialized @415ms
+191  INFO  (main) [   ] o.e.j.s.Server jetty-9.3.8.v20160314
+207  INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/contexts/] at interval 0
+456  INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+466  WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@71423665{/solr,file:///Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr-webapp/webapp/,STARTING}{/Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr-webapp/webapp} has uncovered http methods for path: /
+477  INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1519280649@5a8e6209
+498  INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+498  INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr
+501  INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr'
+501  INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+502  INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr
+507  INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr/solr.xml
+612  INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr
+643  INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 364604394
+643  INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr]
+644  WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr/lib to classpath: /Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr/lib
+657  INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,connectionsEvictorSleepDelay : 5000,maxConnectionIdleTime : 40000,
+873  INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+876  INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+877  INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+880  INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+880  INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+1316 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr
+1335 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions
+1338 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server
+1339 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+1350 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@71423665{/solr,file:///Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr-webapp/webapp/,AVAILABLE}{/Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr-webapp/webapp}
+1368 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@44c03695{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+1368 INFO  (main) [   ] o.e.j.s.Server Started @1785ms
+11068 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@44c03695{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+11069 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=364604394
+11074 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@71423665{/solr,null,UNAVAILABLE}{/Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr-webapp/webapp}
+11075 WARN  (ShutdownMonitor) [   ] o.e.j.s.ServletContextHandler ServletContextHandler.setHandler should not be called directly. Use insertHandler or setSessionHandler etc.

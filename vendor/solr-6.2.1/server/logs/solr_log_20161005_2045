@@ -1,0 +1,48 @@
+2016-10-03 08:59:19.518 INFO  (main) [   ] o.e.j.u.log Logging initialized @457ms
+2016-10-03 08:59:19.737 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.8.v20160314
+2016-10-03 08:59:19.754 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/contexts/] at interval 0
+2016-10-03 08:59:20.027 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-10-03 08:59:20.041 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@71423665{/solr,file:///Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr-webapp/webapp/,STARTING}{/Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-10-03 08:59:20.055 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1519280649@5a8e6209
+2016-10-03 08:59:20.077 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-03 08:59:20.077 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr
+2016-10-03 08:59:20.078 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr'
+2016-10-03 08:59:20.078 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-03 08:59:20.078 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr
+2016-10-03 08:59:20.083 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr/solr.xml
+2016-10-03 08:59:20.197 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr
+2016-10-03 08:59:20.232 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 364604394
+2016-10-03 08:59:20.233 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr]
+2016-10-03 08:59:20.233 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr/lib to classpath: /Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr/lib
+2016-10-03 08:59:20.249 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,connectionsEvictorSleepDelay : 5000,maxConnectionIdleTime : 40000,
+2016-10-03 08:59:20.478 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-10-03 08:59:20.481 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-10-03 08:59:20.482 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-10-03 08:59:20.486 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-10-03 08:59:20.486 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-10-03 08:59:20.915 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr
+2016-10-03 08:59:20.923 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions
+2016-10-03 08:59:20.926 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server
+2016-10-03 08:59:20.926 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-10-03 08:59:20.940 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@71423665{/solr,file:///Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr-webapp/webapp/,AVAILABLE}{/Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr-webapp/webapp}
+2016-10-03 08:59:20.971 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@44c03695{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2016-10-03 08:59:20.972 INFO  (main) [   ] o.e.j.s.Server Started @1913ms
+2016-10-03 08:59:38.347 INFO  (qtp1791930789-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1475485178156} status=0 QTime=94
+2016-10-03 08:59:38.450 INFO  (qtp1791930789-32) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1475485178157} status=0 QTime=197
+2016-10-03 08:59:38.562 INFO  (qtp1791930789-30) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1475485178157} status=0 QTime=16
+2016-10-03 08:59:51.431 INFO  (qtp1791930789-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1475485178156} status=0 QTime=0
+2016-10-03 08:59:51.432 INFO  (qtp1791930789-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1475485178156} status=0 QTime=0
+2016-10-03 08:59:51.456 INFO  (qtp1791930789-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1475485178157} status=0 QTime=23
+2016-10-03 08:59:56.275 INFO  (qtp1791930789-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1475485178156} status=0 QTime=0
+2016-10-03 08:59:56.276 INFO  (qtp1791930789-32) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/properties params={wt=json&_=1475485196271} status=0 QTime=0
+2016-10-03 08:59:56.293 INFO  (qtp1791930789-30) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1475485178157} status=0 QTime=16
+2016-10-03 08:59:57.221 INFO  (qtp1791930789-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1475485178156} status=0 QTime=0
+2016-10-03 08:59:57.236 INFO  (qtp1791930789-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/threads params={wt=json&_=1475485197217} status=0 QTime=14
+2016-10-03 08:59:57.239 INFO  (qtp1791930789-34) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1475485178157} status=0 QTime=18
+2016-10-03 08:59:58.654 INFO  (qtp1791930789-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1475485178156} status=0 QTime=0
+2016-10-03 08:59:58.676 INFO  (qtp1791930789-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1475485178157} status=0 QTime=21
+2016-10-03 08:59:58.693 INFO  (qtp1791930789-34) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1475485178157} status=0 QTime=14
+2016-10-03 09:00:09.712 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@44c03695{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2016-10-03 09:00:09.713 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=364604394
+2016-10-03 09:00:09.718 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@71423665{/solr,null,UNAVAILABLE}{/Users/ubergoober/Documents/Projects/geointservices/solr_pcf/solr-6.2.1/server/solr-webapp/webapp}
+2016-10-03 09:00:09.719 WARN  (ShutdownMonitor) [   ] o.e.j.s.ServletContextHandler ServletContextHandler.setHandler should not be called directly. Use insertHandler or setSessionHandler etc.
