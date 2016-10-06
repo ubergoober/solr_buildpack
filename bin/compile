@@ -21,7 +21,7 @@ mv $ROOT_DIR/vendor/jre1.8.0_92 ~/lib/jvm/oracle_jdk8
 export J2SDKDIR=~/lib/jvm/oracle_jdk8
 export J2REDIR=~/lib/jvm/oracle_jdk8
 export PATH=$PATH:~/lib/jvm/oracle_jdk8/bin:~/lib/jvm/oracle_jdk8/db/bin:~/lib/jvm/oracle_jdk8/bin
-export JAVA_HOME=~/lib/jvm/oracle_jdk8
+export JAVA_HOME=~/lib/jvm/oracle_jdk8/bin
 export DERBY_HOME=~/lib/jvm/oracle_jdk8/db
 
 echo "fileCompile --------------------------" 
