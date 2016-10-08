@@ -6,5 +6,12 @@ ROOT_DIR=$(dirname $BIN_DIR)
 BUILD_DIR=$1
 CACHE_DIR=$2
 ENV_DIR=$3
+USER_DIR=$BUILD_DIR/app
+
+export J2SDKDIR=$USER_PATH/lib/jvm/oracle_jdk8
+export J2REDIR=$USER_PATH/lib/jvm/oracle_jdk8
+export PATH=$PATH:$USER_PATH/lib/jvm/oracle_jdk8/bin:$USER_PATH/lib/jvm/oracle_jdk8/db/bin:$USER_PATH/lib/jvm/oracle_jdk8/bin
+export JAVA_HOME=$USER_PATH/lib/jvm/oracle_jdk8
+export DERBY_HOME=$USER_PATH/lib/jvm/oracle_jdk8/db
 
 $ROOT_DIR/vendor/solr-6.2.1/bin/solr start
