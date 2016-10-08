@@ -4,6 +4,8 @@
 # fail fast
 set -e
 
+ls /usr
+
 # Paths.
 BIN_DIR=$(cd $(dirname $0); pwd) # absolute path
 ROOT_DIR=$(dirname $BIN_DIR)
