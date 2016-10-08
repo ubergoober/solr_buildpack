@@ -30,6 +30,7 @@ export DERBY_HOME=$USER_PATH/lib/jvm/oracle_jdk8/db
 
 
 mv $ROOT_DIR/vendor/solr-6.2.1 $USER_PATH
+export PATH=$PATH:$USER_PATH/solr-6.2.1/bin
 
 #echo "which java ------:"
 #which java
