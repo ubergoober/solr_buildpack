@@ -19,5 +19,5 @@ ENV_DIR=$3
 cat << EOF
 ---
 default_process_types:
-  web: $ROOT_DIR/vendor/solr-6.2.1/bin/solr start
+  web: $USER_DIR/solr-6.2.1/bin/solr start
 EOF

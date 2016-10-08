@@ -29,11 +29,12 @@ export JAVA_HOME=$USER_PATH/lib/jvm/oracle_jdk8
 export DERBY_HOME=$USER_PATH/lib/jvm/oracle_jdk8/db
 
 
+mv $ROOT_DIR/vendor/solr-6.2.1 $USER_PATH
 
-echo "which java ------:"
-which java
-echo "path env var -----:"
-echo $PATH
-echo "JAVA_HOME env var ----:"
-echo $JAVA_HOME
-echo "fileCompile --------------------------" 
+#echo "which java ------:"
+#which java
+#echo "path env var -----:"
+#echo $PATH
+#echo "JAVA_HOME env var ----:"
+#echo $JAVA_HOME
+#echo "fileCompile --------------------------" 
