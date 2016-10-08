@@ -4,7 +4,7 @@
 # fail fast
 set -e
 
-ls /usr
+#ls -lR /usr
 
 # Paths.
 BIN_DIR=$(cd $(dirname $0); pwd) # absolute path
@@ -13,9 +13,10 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 ENV_DIR=$3
 JVM_PATH=/usr/local
-ls -la usr/local
+
 mkdir -p $USER_PATH/lib/jvm
 mv $ROOT_DIR/vendor/jre1.8.0_92 $USER_PATH/lib/jvm/oracle_jdk8
+ls -lR /usr/local/lib/jvm
 #update-alternatives --install $USER_PATH/bin/java java $USER_PATH/lib/jvm/oracle_jdk8/bin/java 2000
 #update-alternatives --install /usr/local/bin/javac javac $USER_PATH/lib/jvm/oracle_jdk8/bin/javac 2000
 #update-alternatives --config java
