@@ -27,5 +27,10 @@ export J2REDIR=$USER_PATH/lib/jvm/oracle_jdk8
 export PATH=$PATH:$USER_PATH/lib/jvm/oracle_jdk8/bin:$USER_PATH/lib/jvm/oracle_jdk8/db/bin:$USER_PATH/lib/jvm/oracle_jdk8/bin
 export JAVA_HOME=$USER_PATH/lib/jvm/oracle_jdk8
 export DERBY_HOME=$USER_PATH/lib/jvm/oracle_jdk8/db
-
+echo "which java ------:"
+which java
+echo "path env var -----:"
+echo $PATH
+echo "JAVA_HOME env var ----:"
+echo $JAVA_HOME
 echo "fileCompile --------------------------" 
